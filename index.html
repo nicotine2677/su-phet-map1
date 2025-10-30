@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>แผนที่ ม.ศิลปากร เพชรบุรี</title>
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+
+<!-- JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+</head>
+<body>
+<h2>🌍 แผนที่ ม.ศิลปากร เพชรบุรี</h2>
+<div id="map"></div>
+<div class="controls">
+<button onclick="getLocation()">📍 หาตำแหน่งของฉัน</button>
+<button onclick="exportMarkers()">📤 ส่งออกหมุด</button>
+<button onclick="importMarkers()">📥 นำเข้าหมุด</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
